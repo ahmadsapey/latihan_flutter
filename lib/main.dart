@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_projek/latihan/latihan.dart';
+import 'package:latihan_projek/latihan/quiz.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LatihanLayout()
+      home: LatihanQuiz()
     );
   }
 }
