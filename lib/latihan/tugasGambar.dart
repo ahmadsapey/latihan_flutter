@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class TugasGambar extends StatelessWidget {
+  const TugasGambar({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

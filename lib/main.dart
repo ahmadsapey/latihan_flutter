@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_projek/latihan/baris.dart';
-import 'package:latihan_projek/latihan/ekspan.dart';
-import 'package:latihan_projek/latihan/gambar.dart';
-import 'package:latihan_projek/latihan/kolom.dart';
 import 'package:latihan_projek/latihan/latihan.dart';
-import 'package:latihan_projek/latihan/phone.dart';
-import 'package:latihan_projek/latihan/stak.dart';
-import 'package:latihan_projek/latihan/texs.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
