@@ -11,24 +11,22 @@ class LatihanQuiz extends StatelessWidget {
         backgroundColor: Colors.amber,
         foregroundColor: Colors.blue,
       ),
-      
+
       body: Container(
         color: Colors.white,
         padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          
+
           children: [
             Text(
               'Training',
-              style: TextStyle(fontSize: 18, 
-              fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 24),
             Text(
               'Your Program',
-              style: TextStyle(fontSize: 15, 
-              fontWeight: FontWeight.normal),
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal),
             ),
             SizedBox(height: 50),
             Container(
@@ -38,7 +36,7 @@ class LatihanQuiz extends StatelessWidget {
                 color: Colors.purpleAccent,
                 borderRadius: BorderRadius.circular(6),
               ),
-              
+
               child: Text(
                 'Lets Toning\nand Glutes Workout',
                 style: TextStyle(
@@ -57,7 +55,7 @@ class LatihanQuiz extends StatelessWidget {
                 color: Colors.cyan,
                 borderRadius: BorderRadius.circular(6),
               ),
-              
+
               child: Center(
                 child: Text(
                   'You are doing great\nkeep it up\nstick to your plan',
