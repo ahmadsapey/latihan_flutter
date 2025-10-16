@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:latihan_projek/latihan/quiz.dart';
+import 'package:latihan_projek/latihan/text_box.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LatihanQuiz()
+      home: TextBoxPage()
     );
   }
 }
